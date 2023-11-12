@@ -525,6 +525,32 @@ body main #msg article #msg_msg {
   display: block;
 }
 
+#title_audio {
+  color: #e67597;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  min-width: fit-content;
+  width: 100%;
+  margin-bottom: 75px;
+
+  max-width: fit-content;
+}
+
+#title_audio::after {
+  content: "";
+  background-color: #f6c268;
+  position: relative;
+  width: 100%;
+  height: 9px;
+  border-radius: 25px;
+  display: block;
+}
+
+#audio {
+  padding-top: 75px;
+}
+
 #rt_image {
   padding-top: 25px;
   background-color: #e67597;
@@ -987,4 +1013,40 @@ footer p {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#acueille #pj {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+
+#coiffeuse h2 {
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+#coiffeuse #profession {
+  font-weight: 600;
+  font-size: 0.8em;
+  margin-bottom: 5px;
+}
+
+#coiffeuse #phrase_coiffeuse {
+  font-weight: 600;
+  font-size: 1.3em;
+  text-align: justify;
+  color: #e67597;
+  margin-bottom: 5px;
+}
+
+#coiffeuse #texte_coiffeuse {
+  font-size: 0.7em;
+  text-align: justify;
+}
+
+#remoin {
+  width: 95%;
 }

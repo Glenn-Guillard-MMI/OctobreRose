@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Octobre rose : Un mouvement de solidarité</title>
-    <link rel="stylesheet" href="styles.css?d" type="text/css" />
+    <link rel="stylesheet" href="styles.css?nddnnd" type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
@@ -119,6 +119,35 @@
                 </div>
             </article>
         </section>
+
+        <section>
+            <article id="audio">
+                <h1 id="title_audio">Témoignage</h1>
+                <div id="remoin">
+                    <div id="coiffeuse">
+                        <h2>
+                            Chantal dubreuil
+                        </h2>
+                        <p id="profession">Coiffeuse</p>
+                        <p id="phrase_coiffeuse">“Si vous constatez un changement, même minime, n'hésitez pas à
+                            consulter un professionnel de
+                            santé.”</p>
+                        <p id="texte_coiffeuse">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                            ea commodo con Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                            eu fugiat nulla pariatu Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt mollit anim id es Sed ut perspiciatis unde omnis iste natus error sit
+                            voluptatem accusantium doloremque laudantium, to Nemo enim ipsam voluptatem quia voluptas
+                            sit aspernatur aut odit aut fugit, sed quia consequuntur ma Neque porro quisquam est, qui
+                            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu Ut enim ad minima
+                        </p>
+
+                    </div>
+                </div>
+            </article>
+        </section>
+
         <section>
             <article id="all_article">
                 <h1 id="title_article">ARTICLE</h1>
@@ -221,6 +250,8 @@
             <img src="Ressources/img/logo.svg" />
         </div>
         <h1>Octobre rose</h1>
+        <p id="pj">Un Projet Webdocumentaire sur</p>
+
         <p>
             UN MOUVEMENT <br />
             DE SOLIDARITÉ
