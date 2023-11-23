@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Octobre rose : Un mouvement de solidarité</title>
-    <link rel="stylesheet" href="styles.css?uhiughu" type="text/css" />
+    <link rel="stylesheet" href="styles.css?dsdqs" type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
@@ -116,8 +116,8 @@
                         perspiciatis velit iste illum quod. Omnis libero vel, perferendis eaque necessitatibus porro
                         sunt
                         ipsam neque!</p>
-                    <a href="https://don.ligue-cancer.net/" target="_blank"> <button id="mobile_button_ms"><img
-                                src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE ROSE</button></a>
+                    <a href="https://don.ligue-cancer.net/" target="_blank" id="btn_a_SOR"> <button
+                            id="mobile_button_ms"><img src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE ROSE</button></a>
                 </div>
             </article>
         </section>
@@ -212,6 +212,7 @@
                             doloremque nihil sit rem, consequuntur mollitia exercitationem sequi delectus atque optio
                             ducimus itaque at? Inventore, incidunt cupiditate aperiam accusantium in, temporibus eius
                             natus est aspernatur rem facere impedit?</p>
+                        <h2>Préparations Enchantées</h2>
                         <audio controls src="Ressources/audio/Musique.mp3"></audio>
 
                     </div>

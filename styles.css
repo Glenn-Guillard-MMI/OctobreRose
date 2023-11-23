@@ -3,6 +3,11 @@
   src: url("Poppins/Poppins-Regular.ttf");
 }
 
+@font-face {
+  font-family: "poppins_gras";
+  src: url("Poppins/Poppins-Bold.ttf");
+}
+
 * {
   margin: 0;
   font-family: "Poppins";
@@ -677,7 +682,7 @@ body article #rt_img5 {
 }
 
 #title_son {
-  color: white;
+  color: #b9375e;
   margin-right: auto;
   margin-left: auto;
   font-size: 20px;
@@ -686,6 +691,10 @@ body article #rt_img5 {
   margin-bottom: 75px;
 
   max-width: fit-content;
+}
+
+#son_right p {
+  margin-bottom: 25px;
 }
 
 #title_son::after {
@@ -700,7 +709,6 @@ body article #rt_img5 {
 
 #rt_son {
   padding-top: 75px;
-  background: #ff8fab;
   padding-bottom: 75px;
 }
 
@@ -712,7 +720,7 @@ body article #rt_img5 {
   text-align: justify;
 }
 #rt_son {
-  color: white;
+  color: black;
 }
 #rt_son h2 {
   margin-top: 30px;
@@ -775,6 +783,10 @@ body article #rt_img5 {
   width: 15px;
   border: 0;
   border-radius: 30px;
+}
+
+#flex_son h2 {
+  color: #b9375e;
 }
 
 @media screen and (max-width: 875px) {
@@ -923,13 +935,17 @@ body article #rt_img5 {
   align-items: center;
   justify-content: space-around;
   height: 50px;
-  width: 45%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
   background-color: transparent;
   border: 1px solid white;
   color: white;
+}
+
+#btn_a_SOR {
+  width: 100%;
 }
 #mobile_button_ms img {
   height: 100%;
@@ -1045,25 +1061,28 @@ footer p {
 #coiffeuse h2 {
   font-weight: 600;
   font-size: 1em;
+  font-family: "Kumbh_bold";
   margin-bottom: 5px;
 }
 
 #coiffeuse #profession {
   font-weight: 600;
-  font-size: 0.8em;
+  font-family: "Kumbh_bold";
+  font-size: 1em;
   margin-bottom: 5px;
 }
 
 #coiffeuse #phrase_coiffeuse {
   font-weight: 600;
-  font-size: 1.3em;
+  font-family: "Kumbh_bold";
+  font-size: 1.7em;
   text-align: justify;
   color: #e67597;
   margin-bottom: 5px;
 }
 
 #coiffeuse #texte_coiffeuse {
-  font-size: 0.7em;
+  font-size: 0.9em;
   text-align: justify;
 }
 
