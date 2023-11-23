@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Octobre rose : Un mouvement de solidarité</title>
-    <link rel="stylesheet" href="styles.css?nddnnd" type="text/css" />
+    <link rel="stylesheet" href="styles.css?uhiughu" type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
@@ -34,14 +34,13 @@
                 </div>
             </div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                necessitatibus doloremque adipisci incidunt, distinctio vitae
-                obcaecati delectus ab impedit consequuntur sapiente, temporibus
-                soluta, similique et voluptatibus non. Perferendis, quia vitae.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Ex necessitatibus
-                doloremque adipisci incidunt, distinctio vitae obcaecati delectus ab
-                impedit consequuntur sapiente, temporibus soluta, similique et
-                voluptatibus non. Perferendis, quia vitae.
+                Le 8 Octobre 2023, la Ferté-sous-Jouarre a organisé sa 6ème édition de la Fertoise, un événement
+                permettant de récolter un maximum de dons pour Octobre rose, contre le cancer du sein. Cette édition à
+                encore battu les records en termes de participant et des dons.
+                <br>
+                <br>
+                Plongez vous dès maintenant au cœur d’Octobre rose !
+
             </p>
 
 
@@ -92,8 +91,10 @@
                             <source src="Ressources/video/Interview_Ugo_PEZETTA.mp4" type="video/mp4" />
 
                         </video>
-                        <button id="desktop_button_ms"><img src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE
-                            ROSE</button>
+                        <a href="https://don.ligue-cancer.net/" target="_blank"><button id="desktop_button_ms"><img
+                                    src="Ressources/img/Ruban.svg">SOUTENIR
+                                OCTOBRE
+                                ROSE</button></a>
                     </div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas culpa mollitia est.
                         Exercitationem, esse culpa vero beatae quo iure nulla doloremque. Corrupti, animi magni error
@@ -115,7 +116,8 @@
                         perspiciatis velit iste illum quod. Omnis libero vel, perferendis eaque necessitatibus porro
                         sunt
                         ipsam neque!</p>
-                    <button id="mobile_button_ms"><img src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE ROSE</button>
+                    <a href="https://don.ligue-cancer.net/" target="_blank"> <button id="mobile_button_ms"><img
+                                src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE ROSE</button></a>
                 </div>
             </article>
         </section>
@@ -124,6 +126,7 @@
             <article id="audio">
                 <h1 id="title_audio">Témoignage</h1>
                 <div id="remoin">
+                    <img src="Ressources/img/PXL_20231013_085405222.jpg">
                     <div id="coiffeuse">
                         <h2>
                             Chantal dubreuil
@@ -132,16 +135,8 @@
                         <p id="phrase_coiffeuse">“Si vous constatez un changement, même minime, n'hésitez pas à
                             consulter un professionnel de
                             santé.”</p>
-                        <p id="texte_coiffeuse">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut
-                            labore Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                            ea commodo con Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatu Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                            officia deserunt mollit anim id es Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium, to Nemo enim ipsam voluptatem quia voluptas
-                            sit aspernatur aut odit aut fugit, sed quia consequuntur ma Neque porro quisquam est, qui
-                            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed qu Ut enim ad minima
-                        </p>
+                        <h2 id="audio_title">Ecouter le témoignage de Chantal</h2>
+                        <audio controls src="Ressources/audio/ZOOM0001_TrLR_1.mp3"></audio>
 
                     </div>
                 </div>
@@ -153,40 +148,42 @@
                 <h1 id="title_article">ARTICLE</h1>
 
                 <div class="flex_art">
-                    <div class="art">
-                        <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                        <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                        <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-                            soluta vitae beatae
-                            quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                        <p class="auteur">dsjfhsdjhf dsfsd</p>
-                    </div>
-                    <div class="art">
-                        <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                        <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                        <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-                            soluta vitae beatae
-                            quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                        <p class="auteur">dsjfhsdjhf dsfsd</p>
-                    </div>
+                    <a href="article_un.html" class="article_a">
+
+                        <div class="art">
+                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
+                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
+                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+                                soluta vitae beatae
+                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
+                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                        </div>
+                    </a>
+                    <a href="article_deux.html" class="article_a">
+
+                        <div class="art">
+                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
+                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
+                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Architecto
+                                soluta vitae beatae
+                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
+                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="flex_art">
-                    <div class="art">
-                        <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                        <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                        <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-                            soluta vitae beatae
-                            quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                        <p class="auteur">dsjfhsdjhf dsfsd</p>
-                    </div>
-                    <div class="art">
-                        <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                        <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                        <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-                            soluta vitae beatae
-                            quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                        <p class="auteur">dsjfhsdjhf dsfsd</p>
-                    </div>
+                    <a href="article_trois.html" class="article_a">
+                        <div class="art">
+                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
+                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
+                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Architecto
+                                soluta vitae beatae
+                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
+                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                        </div>
+                    </a>
                 </div>
             </article>
         </section>
@@ -200,6 +197,8 @@
                             velit obcaecati blanditiis aperiam, earum quisquam quod nostrum molestias hic harum
                             asperiores aut.</p>
                         <h2>Danser avec le coeur</h2>
+                        <audio controls src="Ressources/audio/Danse.mp3"></audio>
+
                     </div>
                     <hr>
                     <div id="son_right">
@@ -213,6 +212,8 @@
                             doloremque nihil sit rem, consequuntur mollitia exercitationem sequi delectus atque optio
                             ducimus itaque at? Inventore, incidunt cupiditate aperiam accusantium in, temporibus eius
                             natus est aspernatur rem facere impedit?</p>
+                        <audio controls src="Ressources/audio/Musique.mp3"></audio>
+
                     </div>
                 </div>
             </article>

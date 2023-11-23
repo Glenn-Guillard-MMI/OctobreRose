@@ -76,6 +76,9 @@ header img {
   padding-bottom: 25px;
 }
 
+body #plan_id {
+  object-fit: contain !important;
+}
 #intro h1 {
   color: white;
   width: fit-content;
@@ -107,7 +110,7 @@ header img {
   border-radius: 15px;
   box-shadow: 0px 4px 15px 0px #00000059;
   width: 85%;
-  height: 55vh;
+  height: 75vh;
   object-fit: cover;
 }
 
@@ -242,6 +245,12 @@ header img {
 
 .art p {
   text-align: justify;
+}
+
+.rdt {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 635px) {

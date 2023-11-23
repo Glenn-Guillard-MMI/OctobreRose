@@ -549,6 +549,7 @@ body main #msg article #msg_msg {
 
 #audio {
   padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 #rt_image {
@@ -700,6 +701,7 @@ body article #rt_img5 {
 #rt_son {
   padding-top: 75px;
   background: #ff8fab;
+  padding-bottom: 75px;
 }
 
 #rt_son img {
@@ -896,12 +898,19 @@ body article #rt_img5 {
   justify-content: space-around;
   height: 50px;
   width: 45%;
+  cursor: pointer;
   margin-left: auto;
   margin-right: auto;
   border-radius: 25px;
   background-color: transparent;
   border: 1px solid white;
   color: white;
+  transition: all ease 1s;
+}
+
+#left_MS #desktop_button_ms:hover {
+  color: #b9375e;
+  background: white;
 }
 
 #left_MS #desktop_button_ms img {
@@ -932,13 +941,13 @@ body article #rt_img5 {
 }
 
 .art {
-  width: 35%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
   background-color: white;
   border-radius: 15px;
-
+  margin-bottom: 50px !important;
   padding-bottom: 15px;
   overflow: hidden;
 }
@@ -972,14 +981,25 @@ body .art:last-child {
   margin-right: 25px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .flex_art {
   width: 100%;
   display: flex;
-  margin-bottom: 75px;
   justify-content: space-around;
 }
 
 .justitexte {
+  margin-top: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  color: black;
+  text-align: justify;
+}
+.justititre {
   margin-top: 2px;
   margin-left: 10px;
   margin-right: 10px;
@@ -1048,5 +1068,61 @@ footer p {
 }
 
 #remoin {
-  width: 95%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#remoin img {
+  width: 20%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 845px) {
+  #remoin {
+    display: block;
+    width: fit-content;
+  }
+  body #coiffeuse {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  #remoin img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width: 35%;
+  }
+}
+
+#coiffeuse {
+  width: 50%;
+}
+
+body #audio_title {
+  font-size: 1.5em;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+audio {
+  width: 100%;
+}
+
+#rt_son audio {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.article_a {
+  text-decoration: none;
+  width: 100%;
 }
