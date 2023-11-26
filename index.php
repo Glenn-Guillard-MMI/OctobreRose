@@ -5,33 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Octobre rose : Un mouvement de solidarité</title>
-    <link rel="stylesheet" href="styles.css?dsdqs" type="text/css" />
+    <link rel="stylesheet" href="styles.css?dsddsfdhhhkdkdsqs" type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
 <body>
 
-    <header>
-        <a href="index.php?visteur=ok">
-            <img src="Ressources/img/logo.svg"></a>
-        <h1>Octobre rose : Un mouvement de solidarité</h1>
-
-    </header>
+    <?php 
+require_once 'header.html';
+?>
     <main id="page">
 
 
         <section id="selections">
             <div id="ref">
-                <div>
+                <p>
                     Projet documentaire de&nbsp;
-                    <span class="light">Valentin Lamour</span>,&nbsp;
-                </div>
+                    <b> Valentin Lamour</b>,
+                    <b> Glenn Guillard</b>,
+                    <b> Yanis Wong </b> et
+                    <b> Arno Le Moil</b>
 
-                <div id="name">
-                    <span class="light"> Glenn Guillard</span>,
-                    <span class="light">Yanis Wong </span> et
-                    <span class="light"> Arno Le Moil</span>
-                </div>
+                </p>
+
+
             </div>
             <p>
                 Le 8 Octobre 2023, la Ferté-sous-Jouarre a organisé sa 6ème édition de la Fertoise, un événement
@@ -48,7 +45,7 @@
                 <article>
                     <img src="Ressources/img/img_coiffeur.jpg">
                     <div id="barre_jaune"></div>
-                    <h1>Professionnel de santé</h1>
+                    <h1>PROFESSIONNEL DE SANTÉ</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa corporis debitis ab aliquid
                         est eos tenetur earum ad quia!</p>
                     <button>Consulter</button>
@@ -56,10 +53,10 @@
                 <article>
                     <img src="Ressources/img/PXL_20231008_091640380.jpg">
                     <div id="barre_jaune"></div>
-                    <h1>Participant au triathlon</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa corporis debitis ab aliquid
-                        est eos tenetur earum ad quia!</p>
-                    <a href="Participant_au_triathlon.html"><button> Consulter</button></a>
+                    <h1>PARTICIPANTS À LA COURSE</h1>
+                    <p>La 6e édition d'Octobre Rose à La Ferté-sous-Jouarre a été un véritable succès. Plus de 2100 ...
+                    </p>
+                    <a href="Participant_au_triathlon.php"><button> Consulter</button></a>
                 </article>
 
             </div>
@@ -84,38 +81,33 @@
         </section>
         <section id="Maire_et_asso">
             <article>
-                <h1 id="title_MS">MAIRE ET PRESIDENT D'ASSOCIATION</h1>
+                <h1 id="title_MS">MAIRE ET PRÉSIDENT D'ASSOCIATION</h1>
                 <div id="flex_MS">
                     <div id="left_MS">
-                        <video controls preload="auto">
-                            <source src="Ressources/video/Interview_Ugo_PEZETTA.mp4" type="video/mp4" />
-
-                        </video>
+                        <iframe src="https://www.youtube.com/embed/yAY-fQHle8A"
+                            title="How to bring a basket into the classroom" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                         <a href="https://don.ligue-cancer.net/" target="_blank"><button id="desktop_button_ms"><img
                                     src="Ressources/img/Ruban.svg">SOUTENIR
                                 OCTOBRE
                                 ROSE</button></a>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas culpa mollitia est.
-                        Exercitationem, esse culpa vero beatae quo iure nulla doloremque. Corrupti, animi magni error
-                        dignissimos delectus exercitationem illum assumenda reiciendis totam. Mollitia odio aliquid
-                        impedit
-                        a quas incidunt dolorum, sequi odit molestias, repudiandae, vero dolores excepturi reiciendis
-                        illum
-                        sapiente quo natus assumenda libero quia harum? Illo dicta perspiciatis et expedita voluptas
-                        asperiores omnis eos sapiente! Totam, eaque explicabo reprehenderit molestiae, excepturi fugit
-                        asperiores aspernatur, libero laudantium quam repellat! Et, corrupti. Tenetur praesentium eius
-                        nulla
-                        perspiciatis velit iste illum quod. Omnis libero vel, perferendis eaque necessitatibus porro
-                        sunt<br>
-                        ipsam neque! sapiente quo natus assumenda libero quia harum? Illo dicta perspiciatis et expedita
-                        voluptas
-                        asperiores omnis eos sapiente! Totam, eaque explicabo reprehenderit molestiae, excepturi fugit
-                        asperiores aspernatur, libero laudantium quam repellat! Et, corrupti. Tenetur praesentium eius
-                        nulla
-                        perspiciatis velit iste illum quod. Omnis libero vel, perferendis eaque necessitatibus porro
-                        sunt
-                        ipsam neque!</p>
+                    <div id="tsteFlex">
+                        <p>Ugo Pezzetta, maire de La Ferté-sous-Jouarre, et Nicolas Mieszczelski, président de
+                            l'Association
+                            des Entrepreneurs du Pays Fertois (AEPF), ont participé à l'événement Octobre Rose.
+                            <br>
+                            <br>
+                            L'AEPF, association à but non lucratif, vise à promouvoir le développement économique du
+                            Pays
+                            Fertois en rassemblant des entrepreneurs de divers secteurs. Leur présence à Octobre Rose
+                            témoigne de leur soutien à la lutte contre le cancer du sein, soulignant leur engagement en
+                            faveur de cette cause cruciale.
+                        </p>
+                        <h2>Chiffre à retenir </h2>
+                        <p>9 femme sur 10 peuvent être guéris lorsqu’il est détecté à un stade précoce</p>
+                    </div>
                     <a href="https://don.ligue-cancer.net/" target="_blank" id="btn_a_SOR"> <button
                             id="mobile_button_ms"><img src="Ressources/img/Ruban.svg">SOUTENIR OCTOBRE ROSE</button></a>
                 </div>
@@ -124,17 +116,19 @@
 
         <section>
             <article id="audio">
-                <h1 id="title_audio">Témoignage</h1>
+                <h1 id="title_audio">TÉMOIGNAGE</h1>
                 <div id="remoin">
-                    <img src="Ressources/img/PXL_20231013_085405222.jpg">
+                    <img src="Ressources/img/PXL_20231013_085354345.jpg">
                     <div id="coiffeuse">
                         <h2>
                             Chantal dubreuil
                         </h2>
                         <p id="profession">Coiffeuse</p>
-                        <p id="phrase_coiffeuse">“Si vous constatez un changement, même minime, n'hésitez pas à
-                            consulter un professionnel de
-                            santé.”</p>
+                        <i>
+                            <p id="phrase_coiffeuse">“Si vous constatez un changement, même minime, n'hésitez pas à
+                                consulter un professionnel de
+                                santé.”</p>
+                        </i>
                         <h2 id="audio_title">Ecouter le témoignage de Chantal</h2>
                         <audio controls src="Ressources/audio/ZOOM0001_TrLR_1.mp3"></audio>
 
@@ -193,9 +187,10 @@
                 <div id="flex_son">
                     <div id="son_left">
                         <img src="Ressources/img/foule.png">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et pariatur assumenda repudiandae
-                            velit obcaecati blanditiis aperiam, earum quisquam quod nostrum molestias hic harum
-                            asperiores aut.</p>
+                        <p>Sous le ciel ensoleillé d'octobre, l'énergie palpite dans l'air alors que l'association de
+                            danse locale prend d'assaut la scène. À quelques pas de la ligne de départ de la course
+                            Octobre rose, une foule joyeuse s'est rassemblée pour partager des pas de danse et propager
+                            la joie.</p>
                         <h2>Danser avec le coeur</h2>
                         <audio controls src="Ressources/audio/Danse.mp3"></audio>
 
@@ -203,15 +198,12 @@
                     <hr>
                     <div id="son_right">
                         <h2>Groupe de jeune musicien</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero ullam tempora autem
-                            quibusdam. Assumenda provident, numquam cupiditate, quos voluptate, unde maiores dicta
-                            officia distinctio molestias harum corrupti eos blanditiis deleniti quasi eum iure nostrum
-                            quae. Neque ab quia atque iusto magnam, molestias nisi officiis eos dolorem dolor facere
-                            odit debitis fugiat nesciunt corporis ullam soluta? Sequi alias, dignissimos incidunt, ipsum
-                            hic quod nostrum ut quidem pariatur consequuntur, quas impedit eos architecto? Quasi
-                            doloremque nihil sit rem, consequuntur mollitia exercitationem sequi delectus atque optio
-                            ducimus itaque at? Inventore, incidunt cupiditate aperiam accusantium in, temporibus eius
-                            natus est aspernatur rem facere impedit?</p>
+                        <p>Au cœur de l'événement Octobre Rose, le groupe de musique LBD a apporté une note particulière
+                            d'engagement et d'émotion. Le groupe s'est tout d'abord échauffé, créant une ambiance
+                            électrique alors que les accords résonnaient, préparant le terrain pour leur performance à
+                            venir. Les riffs de guitare, les battements de tambour et les harmonies vocales fusionnaient
+                            dans une symphonie préliminaire, évoquant une énergie contagieuse qui se propageait parmi
+                            les membres du groupe.</p>
                         <h2>Préparations Enchantées</h2>
                         <audio controls src="Ressources/audio/Musique.mp3"></audio>
 
@@ -222,44 +214,45 @@
         <section id="rt_image">
             <article>
                 <h1 id="title_image">RETOUR EN IMAGE</h1>
-                <div id="image_retour">
-                    <img src="Ressources/img/PXL_20231008_094038988.jpg" id="rt_img1">
-                    <img src="Ressources/img/PXL_20231008_091640380.jpg" id="rt_img2">
-                    <img src="Ressources/img/IMG_20231008_100645.jpg" id="rt_img3">
-                    <div>
-                        <img src="Ressources/img/IMG_20231008_120227.jpg" id="rt_img4">
-                        <img src="Ressources/img/PXL_20231008_085553118.jpg" id="rt_img5">
+                <div id="rt_flex">
+                    <div class="img_rt_img">
+                        <img src="Ressources/img/PXL_20231008_094038988.jpg" id="rt_img1">
                         <img src="Ressources/img/IMG_20231008_103605.jpg" id="rt_img6">
+                    </div>
+                    <img src="Ressources/img/PXL_20231008_085553118.jpg" id="rt_img5">
 
+                    <div class="img_rt_img">
+                        <img src="Ressources/img/IMG_20231008_120227.jpg" id="rt_img4">
+                        <img src="Ressources/img/PXL_20231008_091640380.jpg" id="rt_img2">
                     </div>
 
+
                 </div>
+
 
 
             </article>
         </section>
 
     </main>
-    <footer>
-        <h1>Soutenir Octobre Rose</h1>
-        <p>Un projet documentaire de Valentin Lamour, Glenn Guillard, Yanis Wong et Arno Le Moil.<br> – © 2023 Octobre
-            Rose –
-            Tous droits réservés.</p>
-    </footer>
+    <?php
+    require_once "footer.html" ;
+    ?>
     <?php if(!isset($_GET["visteur"])) { ?>
     <div id="acueille">
         <div id="img_acc">
             <img src="Ressources/img/logo.svg" />
         </div>
-        <h1>Octobre rose</h1>
         <p id="pj">Un Projet Webdocumentaire sur</p>
+        <h1 class="up">Octobre rose</h1>
 
-        <p>
-            UN MOUVEMENT <br />
-            DE SOLIDARITÉ
+
+        <p class="up">
+            au cœur de<br />
+            la lutte
         </p>
 
-        <button onclick="disparate()">VENEZ DÉCOUVRIR</button>
+        <button onclick="disparate()">DÉCOUVRIR</button>
     </div>
     <script>
     var mainElements = document.getElementById("page");

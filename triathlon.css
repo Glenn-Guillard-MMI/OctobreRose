@@ -5,10 +5,19 @@
 
 * {
   margin: 0;
+
   font-family: "Poppins";
 }
 
+body {
+  background: #ffebf1;
+}
+
 /*Header*/
+
+#tezsts {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
 
 header {
   width: 100%;
@@ -23,6 +32,7 @@ header {
 header h1 {
   font-size: 32px;
   color: #b9375e;
+
   font-weight: 700;
   margin-left: 15px;
 }
@@ -91,7 +101,7 @@ body #plan_id {
   background-color: #f6c268;
   position: relative;
   width: 100%;
-  height: 9px;
+  height: 7px;
   border-radius: 25px;
   display: block;
 }
@@ -100,6 +110,8 @@ body #plan_id {
   color: white;
   margin-left: 25px;
   text-decoration: none;
+  position: relative;
+  top: 30px;
 }
 
 #intro img {
@@ -115,18 +127,22 @@ body #plan_id {
 }
 
 #intro p {
-  width: 65%;
+  width: 60%;
   margin-top: 25px;
-  color: white;
+  color: #ffebf1;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+}
+
+p {
+  color: #142c5d;
 }
 
 #case article img {
   width: 50%;
   object-fit: cover;
   height: 100%;
+  background-color: white;
 }
 
 #case article {
@@ -149,7 +165,7 @@ body #plan_id {
   margin-left: auto;
   color: #e67597;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-right: auto;
   width: fit-content;
 }
@@ -158,7 +174,7 @@ body #plan_id {
   background-color: #f6c268;
   position: relative;
   width: 100%;
-  height: 9px;
+  height: 7px;
   border-radius: 25px;
   display: block;
 }
@@ -239,8 +255,21 @@ body #plan_id {
   object-fit: cover;
 }
 
+iframe {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 50vw;
+}
+
 .art h1 {
-  color: #ff8fab;
+  color: #b9375e;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 .art p {
@@ -323,8 +352,19 @@ body #menu p {
   border-radius: 10px;
   height: 35px;
   background: #b9375e;
-  border: 0;
+  border: 1px solid #b9375e;
+  cursor: pointer;
   color: white;
+  transition: all 0.5s ease;
+}
+
+#menu button:hover {
+  background-color: #ffebf1;
+  color: #b9375e;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1250px) {
@@ -353,6 +393,10 @@ footer {
   padding-bottom: 75px;
 }
 
+body footer p {
+  color: #ffebf1 !important;
+}
+
 footer h1 {
   font-size: 25px;
   margin-bottom: 25px;
@@ -361,4 +405,11 @@ footer p {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 500px) {
+  #rt {
+    top: 0;
+    margin-left: 5px;
+  }
 }

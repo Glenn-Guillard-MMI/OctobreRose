@@ -1,0 +1,20 @@
+footer {
+  background: #b9375e;
+  text-align: center;
+  color: #ffebf1 !important;
+  padding-top: 75px;
+  box-shadow: 0px 4px 32px 0px #00000040;
+
+  padding-bottom: 75px;
+}
+
+footer h1 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+body footer p {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffebf1 !important;
+}
