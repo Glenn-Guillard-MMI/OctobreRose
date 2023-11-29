@@ -5,97 +5,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Article</title>
-    <link rel="stylesheet" href="artcile.css?qsdjmqs" />
+    <link rel="stylesheet" href="artcile.css" />
     <link rel="icon" href="Ressources/img/logo.svg" />
 </head>
 
 <body>
-    <?php
-    require_once 'header.html';
-    ?>
+    <div id="haut"></div>
+
+    <?php 
+require_once 'header.html';
+require_once 'up.html';
+?>
     <main id="page">
         <section id="intro">
             <article>
                 <a id="rt" href="index.php?visteur=ok">← Retour</a>
                 <h1>ARTICLE</h1>
-                <img src="Ressources/img/PXL_20231008_091640380.jpg" />
-                <h2>Octobre rose : Danser pour l'espoir et la guérison</h2>
+                <img src="Ressources/img/lbd1.JPG" />
+                <h2>Octobre rose : tous en cœur</h2>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-                    aliquid dignissimos temporibus sunt iusto. Magnam, explicabo omnis
-                    velit delectus totam architecto quasi aperiam et, sunt minus porro
-                    eligendi quae veritatis illum qui exercitationem illo incidunt ut.
-                    Nemo voluptatem incidunt facere quas dolores sunt ipsa omnis ab
-                    cumque, necessitatibus illo vitae.
+                    Le groupe de musique LBD, composé de ses quatre jeunes artistes
+                    originaires de la Ferté Sous Jouarre, a eu l’occasion de participer à la 6ème
+                    édition d' Octobre Rose à la Ferte Sous Jouarre.
                 </p>
             </article>
         </section>
         <section>
             <article id="texte_art">
-                <p>sdjfiosdj</p>
-                <p>fsdjfidsjfiosd</p>
+                <p>Valentin Lamour</p>
+                <p>Le 21 novembre 2023</p>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-                    saepe alias maxime nulla nostrum consequatur dignissimos natus,
-                    possimus temporibus et ducimus rem fugit quam in repellat iusto
-                    autem neque officiis sed, repudiandae quaerat tenetur. Libero
-                    voluptas, corrupti, nobis et nisi, sed ad optio ratione vitae
-                    accusantium exercitationem nihil laudantium. Aliquam, ab ea quis
-                    quia molestiae quisquam non voluptates sed quasi tempora velit
-                    eaque, officiis doloremque enim a id esse deserunt minus illum? Esse
-                    odit alias tempore quo ipsa fugiat, harum aut eum, itaque
-                    consequatur labore laudantium porro eius repellat. Pariatur,
-                    recusandae necessitatibus, maxime dolores ex, a vitae suscipit totam
-                    facilis minus amet nesciunt. Impedit consequuntur quidem obcaecati
-                    qui ut perferendis, nobis tempore natus totam molestiae sapiente ex
-                    quasi illum ab at a ad amet veritatis voluptates dignissimos?
-                    Necessitatibus odio cumque explicabo doloremque pariatur ullam
-                    architecto quidem itaque facere? Asperiores voluptas earum sequi
-                    fugit! Consequatur animi placeat eos voluptates autem suscipit nihil
-                    deleniti atque corrupti voluptas? Enim maiores voluptates minima
-                    perferendis voluptatibus ea nulla, dignissimos consequatur quod
-                    eligendi id sunt laborum ad dicta saepe cupiditate ab repellat
-                    provident earum amet, odit corrupti ipsa doloremque? Possimus minus
-                    ratione cumque quibusdam repellat ad nemo dolorem ex officia, unde
-                    dicta dolorum, accusantium praesentium illo voluptas atque! Fugit
-                    ut, minima expedita nam maiores corporis doloremque ipsa temporibus
-                    labore, mollitia culpa, ullam quam non aliquam aut inventore
-                    doloribus! Exercitationem voluptatibus porro inventore ea aliquid
-                    perferendis? Ratione, cumque dignissimos? Commodi adipisci ipsa
-                    beatae a! Veniam dolorem, optio eaque quisquam assumenda sequi
-                    reiciendis distinctio necessitatibus maiores, at doloribus.
+                    Sur une scène animée par une ambiance conviviale et chaleureuse, <u>le groupe LBD
+                        se prépare</u> à offrir une performance inoubliable. Une complicité évidente règne
+                    entre les membres du groupe, créant une atmosphère détendue mais pleine
+                    d'énergie. Le groupe LBD, composé d'Alex et Toma aux guitares, Loan à la batterie,
+                    et Lucaina au chant, a pris part à un événement particulier avec une motivation
+                    profonde. Lucaina, le chanteur du groupe, a exprimé son engagement envers
+                    Octobre Rose en rendant hommage à sa grand-mère, qui lutte contre le cancer
+                    du sein. Il a partagé son intention sincère en déclarant : "<i>Je suis ici pour montrer
+                        mon soutien à Octobre Rose et soutenir ma grand-mère dans ce combat.</i>"
                 </p>
                 <br />
+                <p>Fort de plusieurs années d'expérience musicale en Seine-et-Marne, le groupe LBD
+                    est bien connu pour sa polyvalence artistique. Les guitaristes, Alex et Toma, le
+                    batteur Loan, et le chanteur Lucaina créent leur propre musique, explorant un
+                    large éventail de styles, du rock au rap, en passant par la pop et le reggae.</p>
+                <br>
+                <p>Leur engagement envers des causes caritatives ne se limite pas à Octobre Rose.
+                    LBD a déjà participé à d'autres événements caritatifs tels que le Téléthon et la
+                    Fête de la musique. Leur musique vibrante et variée résonne auprès d'un public
+                    diversifié.
+
+                </p>
+                <br>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-                    saepe alias maxime nulla nostrum consequatur dignissimos natus,
-                    possimus temporibus et ducimus rem fugit quam in repellat iusto
-                    autem neque officiis sed, repudiandae quaerat tenetur. Libero
-                    voluptas, corrupti, nobis et nisi, sed ad optio ratione vitae
-                    accusantium exercitationem nihil laudantium. Aliquam, ab ea quis
-                    quia molestiae quisquam non voluptates sed quasi tempora velit
-                    eaque, officiis doloremque enim a id esse deserunt minus illum? Esse
-                    odit alias tempore quo ipsa fugiat, harum aut eum, itaque
-                    consequatur labore laudantium porro eius repellat. Pariatur,
-                    recusandae necessitatibus, maxime dolores ex, a vitae suscipit totam
-                    facilis minus amet nesciunt. Impedit consequuntur quidem obcaecati
-                    qui ut perferendis, nobis tempore natus totam molestiae sapiente ex
-                    quasi illum ab at a ad amet veritatis voluptates dignissimos?
-                    Necessitatibus odio cumque explicabo doloremque pariatur ullam
-                    architecto quidem itaque facere? Asperiores voluptas earum sequi
-                    fugit! Consequatur animi placeat eos voluptates autem suscipit nihil
-                    deleniti atque corrupti voluptas? Enim maiores voluptates minima
-                    perferendis voluptatibus ea nulla, dignissimos consequatur quod
-                    eligendi id sunt laborum ad dicta saepe cupiditate ab repellat
-                    provident earum amet, odit corrupti ipsa doloremque? Possimus minus
-                    ratione cumque quibusdam repellat ad nemo dolorem ex officia, unde
-                    dicta dolorum, accusantium praesentium illo voluptas atque! Fugit
-                    ut, minima expedita nam maiores corporis doloremque ipsa temporibus
-                    labore, mollitia culpa, ullam quam non aliquam aut inventore
-                    doloribus! Exercitationem voluptatibus porro inventore ea aliquid
-                    perferendis? Ratione, cumque dignissimos? Commodi adipisci ipsa
-                    beatae a! Veniam dolorem, optio eaque quisquam assumenda sequi
-                    reiciendis distinctio necessitatibus maiores, at doloribus.
+                    Lors de leur performance devant une foule enthousiaste de plus de 2000
+                    personnes, LBD a conquis les spectateurs par leur énergie contagieuse et leur
+                    talent musical. Choisis avec soin, les morceaux interprétés par le groupe
+                    abordaient des thèmes de force, d'espoir et de résilience. LBD espère que leur
+                    musique saura apporter un réconfort bienvenu à ceux qui sont touchés par le
+                    cancer du sein. Avec leur propre style musical distinctif, le groupe souhaite créer
+                    une expérience mémorable pour leur public tout en contribuant à des causes qui
+                    leur tiennent à cœur, <b>unissant le pouvoir de la musique à celui du soutien
+                        communautaire.</b>
                 </p>
             </article>
         </section>

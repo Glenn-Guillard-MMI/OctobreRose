@@ -18,3 +18,13 @@ body footer p {
   margin-right: auto;
   color: #ffebf1 !important;
 }
+
+footer a {
+  color: #ffebf1;
+  text-decoration: transparent;
+  transition: all ease 0.2s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

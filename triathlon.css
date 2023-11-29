@@ -19,6 +19,43 @@ body {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
+#desktop_button_ms {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 300px !important;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: auto;
+  cursor: pointer;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: #b9375e;
+  border: 1px solid #b9375e;
+  color: #ffebf1;
+  transition: all ease 1s;
+  box-shadow: none !important;
+}
+
+#don {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#desktop_button_ms:hover {
+  color: #b9375e;
+  background: transparent;
+}
+#desktop_button_ms img {
+  height: 100%;
+}
+
 header {
   width: 100%;
   display: flex;
@@ -90,7 +127,7 @@ body #plan_id {
   object-fit: contain !important;
 }
 #intro h1 {
-  color: white;
+  color: #ffebf1;
   width: fit-content;
   margin-right: auto;
   margin-left: auto;
@@ -107,11 +144,19 @@ body #plan_id {
 }
 
 #rt {
-  color: white;
+  color: #ffebf1;
   margin-left: 25px;
   text-decoration: none;
   position: relative;
+  border: 2px solid #b9375e;
+  padding: 5px;
+  border-radius: 15px;
   top: 30px;
+  transition: all 0.5s ease;
+}
+
+#rt:hover {
+  border: 2px solid #ffebf1;
 }
 
 #intro img {
@@ -122,7 +167,7 @@ body #plan_id {
   border-radius: 15px;
   box-shadow: 0px 4px 15px 0px #00000059;
   width: 85%;
-  height: 75vh;
+  height: 72vh;
   object-fit: cover;
 }
 
@@ -142,7 +187,7 @@ p {
   width: 50%;
   object-fit: cover;
   height: 100%;
-  background-color: white;
+  background-color: #ffebf1;
 }
 
 #case article {
@@ -163,7 +208,7 @@ p {
 
 #title_pc {
   margin-left: auto;
-  color: #e67597;
+  color: #b9375e;
   margin-top: 50px;
   margin-bottom: 30px;
   margin-right: auto;
@@ -260,7 +305,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 50vw;
+  height: 38vw;
 }
 
 .art h1 {
@@ -354,7 +399,7 @@ body #menu p {
   background: #b9375e;
   border: 1px solid #b9375e;
   cursor: pointer;
-  color: white;
+  color: #ffebf1;
   transition: all 0.5s ease;
 }
 
@@ -388,7 +433,7 @@ a {
 footer {
   background: #b9375e;
   text-align: center;
-  color: white;
+  color: #ffebf1;
   padding-top: 75px;
   padding-bottom: 75px;
 }
@@ -412,4 +457,36 @@ footer p {
     top: 0;
     margin-left: 5px;
   }
+}
+
+body #share img {
+  width: 30px;
+  margin: 0;
+  height: 30px;
+  box-shadow: 0 0 0 0;
+  border-radius: 0;
+  margin-left: auto;
+  filter: drop-shadow(0);
+
+  margin-right: auto;
+  transition: all 1s ease;
+}
+
+body #share img:hover {
+  filter: drop-shadow(0px 4px 20px #000000d2);
+}
+
+#share p {
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 5px;
+
+  margin-right: auto;
+}
+
+body #share {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  flex-direction: column;
 }

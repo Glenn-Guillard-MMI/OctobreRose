@@ -8,20 +8,21 @@ function disparate() {
   }, 1500);
 }
 
-Liste_nom = ["Jerome Bell", "Floyd Miles", "Cindy Pave"];
-Liste_age = ["36 ans", "38 ans", "43 ans"];
-Liste_info = ["Bénévole", "Médecin", "triathlète"];
+Liste_nom = ["Daniel Tourneroche", "Jeremy Margallé", "Ali", "Ugo Pezzetta"];
+Liste_age = ["", "", "", ""];
+Liste_info = [
+  "Représentant de la ligue contre le cancer",
+  "Comédien et cascadeur",
+  "Participante",
+  "Maire de la Ferté sous jouarre",
+];
 Liste_phrase = [
-  '“Faites-vous dépister !"',
-  "“Ne pas avoir peur d'en parler”",
-  "“Le dépistage, c'est la clé”",
+  '“Il faut se faire dépister"',
+  "“C’est important que ce genre d’événement se perpétue”",
+  "“Ça n’arrive pas qu’aux autres, aussi bien qu’aux femmes qu’aux hommes”",
+  "“9 femmes sur 10 peuvent guérir du cancer du sein à partir du moment où le dépistage est fait à temps”",
 ];
 
-Liste_btn = [
-  ' <button onclick="vidéo2()">Voir la vidéo</button>',
-  ' <button onclick="vidéo3()">Voir la vidéo</button>',
-  '<button onclick="vidéo1()">Voir la vidéo</button>',
-];
 cpt = 0;
 pouf();
 
@@ -30,7 +31,6 @@ setInterval(() => {
   document.getElementById("card_age").innerText = Liste_age[cpt];
   document.getElementById("card_information").innerText = Liste_info[cpt];
   document.getElementById("card_phrase").innerText = Liste_phrase[cpt];
-  document.getElementById("card_btn").innerHTML = Liste_btn[cpt];
 
   if (Liste_nom.length == cpt + 1) {
     cpt = 0;
@@ -72,4 +72,21 @@ function pouf() {
     document.getElementById("card_information").style.animation =
       "card_inve 3s ease";
   }, 8500);
+}
+
+function video() {
+  document.getElementById("vid").style.scale = 1;
+  document.body.style.overflow = "hidden";
+  document.getElementById("vid").style.backgroundColor = "rgba(0, 0, 0, 0.8)";
+  document.getElementById("vid").style.transform = "translate(-50%, -50%)";
+}
+
+function novid() {
+  document.getElementById("vid").style.backgroundColor = "transparent";
+  setTimeout(() => {
+    document.body.style.overflow = "auto";
+    document.getElementById("vid").style.transform = "translate(-100%, -100%)";
+
+    document.getElementById("vid").style.scale = 0.0001;
+  }, 900);
 }

@@ -4,16 +4,28 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Octobre rose : Un mouvement de solidarité</title>
-    <link rel="stylesheet" href="styles.css?dsddsfdhhhkdkdsqs" type="text/css" />
+    <title>Octobre Rose : Au cœur de la lutte</title>
+    <link rel="stylesheet" href="styles.css?dsddjjjjdsdqdsqldddsdqsdqsssdqdsqfsdfzrzerzesddqksfdfffhhhkdkdsqs"
+        type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
 <body>
+    <div id="haut"></div>
 
     <?php 
 require_once 'header.html';
+require_once 'up.html';
 ?>
+
+    <div id="vid" onclick="novid()">
+        <div id="hello">
+            <iframe width="956" height="538" src="https://www.youtube.com/embed/t7fGvDE9_JA"
+                title="DJI 20231008 111259 558 video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
     <main id="page">
 
 
@@ -21,10 +33,14 @@ require_once 'header.html';
             <div id="ref">
                 <p>
                     Projet documentaire de&nbsp;
-                    <b> Valentin Lamour</b>,
-                    <b> Glenn Guillard</b>,
-                    <b> Yanis Wong </b> et
-                    <b> Arno Le Moil</b>
+                    <a href="https://www.linkedin.com/in/valentin-lamour-732488252/" target="_blank"><b>Valentin
+                            Lamour</b></a>,
+                    <a href="https://www.linkedin.com/in/glenn-guillard-08204724a/" target="_blank"><b> Glenn
+                            Guillard</b></a>,
+                    <a href="https://www.linkedin.com/in/yanis-wong-a2a080278/" target="_blank"><b> Yanis Wong
+                        </b></a> et
+                    <a href="https://www.linkedin.com/in/arno-le-moil-29b4b1256/" target="_blank"><b> Arno Le
+                            Moil</b></a>
 
                 </p>
 
@@ -43,12 +59,13 @@ require_once 'header.html';
 
             <div id="menu">
                 <article>
-                    <img src="Ressources/img/img_coiffeur.jpg">
+                    <img src="Ressources/img/medecin.jpeg">
                     <div id="barre_jaune"></div>
                     <h1>PROFESSIONNEL DE SANTÉ</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa corporis debitis ab aliquid
                         est eos tenetur earum ad quia!</p>
-                    <button>Consulter</button>
+                    <a href="sante.php"><button> Consulter</button></a>
+
                 </article>
                 <article>
                     <img src="Ressources/img/PXL_20231008_091640380.jpg">
@@ -69,12 +86,13 @@ require_once 'header.html';
                 <h1 id="msg_msg">MESSAGE</h1>
                 <div id="rd">
                     <img src="Ressources/img/card_message.svg" id="card_message">
-                    <h1 id="card_nom">Cindy Pave</h1>
-                    <p id="card_age">43 ans</p>
-                    <p id="card_information">triathlète</p>
-                    <p id="card_phrase">“Le dépistage, c'est la clé”</p>
+                    <h1 id="card_nom">Ugo Pezzetta</h1>
+                    <p id="card_age"></p>
+                    <p id="card_information">Maire de la Ferté sous jouarre</p>
+                    <p id="card_phrase">“9 femmes sur 10 peuvent guérir du cancer du sein à partir du moment où le
+                        dépistage est fait à temps”</p>
                     <div id="card_btn">
-                        <button onclick="vidéo1()">Voir la vidéo</button>
+                        <button onclick="video()">Voir la vidéo</button>
                     </div>
                 </div>
             </article>
@@ -84,8 +102,7 @@ require_once 'header.html';
                 <h1 id="title_MS">MAIRE ET PRÉSIDENT D'ASSOCIATION</h1>
                 <div id="flex_MS">
                     <div id="left_MS">
-                        <iframe src="https://www.youtube.com/embed/yAY-fQHle8A"
-                            title="How to bring a basket into the classroom" frameborder="0"
+                        <iframe src="https://www.youtube.com/embed/bhN2p8-GKHg" title="Nicolas Ugo" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                         <a href="https://don.ligue-cancer.net/" target="_blank"><button id="desktop_button_ms"><img
@@ -94,7 +111,8 @@ require_once 'header.html';
                                 ROSE</button></a>
                     </div>
                     <div id="tsteFlex">
-                        <p>Ugo Pezzetta, maire de La Ferté-sous-Jouarre, et Nicolas Mieszczelski, président de
+                        <p><b>Ugo PEZZETTA</b>, maire de La Ferté-sous-Jouarre, et <b>Nicolas MIESZKALSKI</b>, président
+                            de
                             l'Association
                             des Entrepreneurs du Pays Fertois (AEPF), ont participé à l'événement Octobre Rose.
                             <br>
@@ -121,7 +139,7 @@ require_once 'header.html';
                     <img src="Ressources/img/PXL_20231013_085354345.jpg">
                     <div id="coiffeuse">
                         <h2>
-                            Chantal dubreuil
+                            Isabelle Ventouratos
                         </h2>
                         <p id="profession">Coiffeuse</p>
                         <i>
@@ -129,7 +147,7 @@ require_once 'header.html';
                                 consulter un professionnel de
                                 santé.”</p>
                         </i>
-                        <h2 id="audio_title">Ecouter le témoignage de Chantal</h2>
+                        <h2 id="audio_title">Ecouter le témoignage de Isabelle</h2>
                         <audio controls src="Ressources/audio/ZOOM0001_TrLR_1.mp3"></audio>
 
                     </div>
@@ -142,27 +160,27 @@ require_once 'header.html';
                 <h1 id="title_article">ARTICLE</h1>
 
                 <div class="flex_art">
-                    <a href="article_un.html" class="article_a">
+                    <a href="article_un.php" class="article_a">
 
                         <div class="art">
-                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
-                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
-                                soluta vitae beatae
-                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                            <img src="Ressources/img/lbd1.JPG">
+                            <h1 class="justititre">Octobre rose : tous en cœur</h1>
+                            <p class="justitexte">Le groupe de musique LBD, composé de ses quatre jeunes artistes
+                                originaires de la Ferté Sous Jouarre, a eu l’occasion de participer à la 6ème
+                                édition d' Octobre Rose à la Ferte Sous Jouarre.</p>
+                            <p class="auteur">Valentin Lamour</p>
                         </div>
                     </a>
                     <a href="article_deux.html" class="article_a">
 
                         <div class="art">
                             <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
+                            <h1 class="justititre">Un salon de coiffure muni de rose</h1>
                             <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Architecto
                                 soluta vitae beatae
                                 quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                            <p class="auteur">Yanis Wong</p>
                         </div>
                     </a>
                 </div>
@@ -206,7 +224,13 @@ require_once 'header.html';
                             les membres du groupe.</p>
                         <h2>Préparations Enchantées</h2>
                         <audio controls src="Ressources/audio/Musique.mp3"></audio>
-
+                        <a href="https://www.instagram.com/ldb.officiels/?fbclid=IwAR0ktmZTI0uWm8Wqc6K3KbAbh9wxnwzZk_xMrDngobp8Pgs2pCp_AUMhNXQ"
+                            target="_blank">
+                            <div id="share">
+                                <p>Retrouvez les sur </p>
+                                <img src="Ressources/img/bi_instagram.svg" id="rese">
+                            </div>
+                        </a>
                     </div>
                 </div>
             </article>
@@ -259,7 +283,9 @@ require_once 'header.html';
     mainElements.style.display = "none";
     </script>
     <?php } ?>
-    <script src="scripte.js?45"></script>
+
+
+    <script src="scripte.js"></script>
 </body>
 
 </html>
