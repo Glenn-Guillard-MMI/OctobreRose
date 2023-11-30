@@ -62,8 +62,7 @@ require_once 'up.html';
                     <img src="Ressources/img/medecin.jpeg">
                     <div id="barre_jaune"></div>
                     <h1>PROFESSIONNEL DE SANTÉ</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa corporis debitis ab aliquid
-                        est eos tenetur earum ad quia!</p>
+                    <p>Au cours de l'événement, des professionnels de santé étaient installés dans un stand ...</p>
                     <a href="sante.php"><button> Consulter</button></a>
 
                 </article>
@@ -157,11 +156,35 @@ require_once 'up.html';
 
         <section>
             <article id="all_article">
-                <h1 id="title_article">ARTICLE</h1>
+                <h1 id="title_article">ARTICLES</h1>
 
                 <div class="flex_art">
-                    <a href="article_un.php" class="article_a">
+                    <a href="article_Glenn_Arno.php" class="article_a">
 
+                        <div class="art">
+                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
+                            <h1 class="justititre">La Fertoise : 20 500 euros de dons contre le cancer du sein</h1>
+                            <p class="justitexte">Comme chaque année, l’objectif de la commune est de battre son ancien
+                                record, afin de soutenir la recherche contre le cancer du sein. Professionnels de santé,
+                                commerçants...</p>
+                            <p class="auteur">Glenn Guillard & Arno Le Moil</p>
+                        </div>
+                    </a>
+                    <a href="article_Yanis.php" class="article_a">
+
+                        <div class="art">
+                            <img src="Ressources/img/img_coiffeur.jpg">
+                            <h1 class="justititre">Au côté des commerçants participants à Octobre rose</h1>
+                            <p class="justitexte">Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès
+                                d’une
+                                commerçante participante. Celle-ci participe dans le but de soutenir la lutte contre le
+                                cancer du sein...</p>
+                            <p class="auteur">Yanis Wong</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex_art">
+                    <a href="article_Valentin.php" class="article_a">
                         <div class="art">
                             <img src="Ressources/img/lbd1.JPG">
                             <h1 class="justititre">Octobre rose : tous en cœur</h1>
@@ -169,31 +192,6 @@ require_once 'up.html';
                                 originaires de la Ferté Sous Jouarre, a eu l’occasion de participer à la 6ème
                                 édition d' Octobre Rose à la Ferte Sous Jouarre.</p>
                             <p class="auteur">Valentin Lamour</p>
-                        </div>
-                    </a>
-                    <a href="article_deux.html" class="article_a">
-
-                        <div class="art">
-                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                            <h1 class="justititre">Un salon de coiffure muni de rose</h1>
-                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Architecto
-                                soluta vitae beatae
-                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                            <p class="auteur">Yanis Wong</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex_art">
-                    <a href="article_trois.html" class="article_a">
-                        <div class="art">
-                            <img src="Ressources/img/PXL_20231008_085553118.jpg">
-                            <h1 class="justititre">Octobre rose : Danser pour l'espoir et la guérison</h1>
-                            <p class="justitexte">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Architecto
-                                soluta vitae beatae
-                                quaerat praesentium delectus cumque eos temporibus nisi quis.</p>
-                            <p class="auteur">dsjfhsdjhf dsfsd</p>
                         </div>
                     </a>
                 </div>

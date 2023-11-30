@@ -11,9 +11,9 @@
 </head>
 
 <body>
-<div id="haut"></div>
+    <div id="haut"></div>
 
-<?php 
+    <?php 
 require_once 'header.html';
 require_once 'up.html';
 ?>
@@ -26,11 +26,10 @@ require_once 'up.html';
                     <h1>PARTICIPANTS À LA COURSE</h1>
                     <img src="Ressources/img/medecin.jpeg" />
                     <p>
-                        La 6e édition d'Octobre Rose à La Ferté-sous-Jouarre a été un
-                        véritable succès. Plus de 2100 personnes ont participé à la marche
-                        ou à la course tous vêtues de rose. L'ambiance était festive et
-                        conviviale, et tout le monde était mobilisé pour la bonne cause :
-                        la lutte contre le cancer du sein.
+                        Au cours de l'événement, des professionnels de santé étaient installés dans un stand dans
+                        l’optique de faire une campagne de sensibilisation, en expliquant les causes et les moyens de
+                        guérison du cancer aux participants. Conseiller, informer et soutenir étaient leur principales
+                        missions.
                     </p>
                 </article>
             </section>
@@ -38,17 +37,16 @@ require_once 'up.html';
 
         <section class="art">
             <article>
-                <iframe width="1020" height="538" src="https://www.youtube.com/embed/eUh7XhL_5qE" title="Best Of Why"
-                    frameborder="0"
+                <iframe width="956" height="538" src="https://www.youtube.com/embed/lzkzt8EKtRA"
+                    title="daniel tourneroche" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 <div class="rdt">
                     <h1>Daniel Tourneroche - Représentant de la Ligue contre le cancer</h1>
                     <p>
-                        Dans cette compilation émotionnelle, découvrez les réponses
-                        uniques et inspirantes de personnes engagées dans cette cause. Les
-                        participants partagent tous un objectif commun : faire une
-                        différence dans la lutte contre le cancer du sein.
+                        Daniel TOURNEROCHE représentant et bénévole pendant 15 ans de la ligue contre le cancer du sein
+                        se trouve au stand médical de l'événement. Il nous explique ses combats et la raison de sa
+                        présence à l’évènement.
                     </p>
                 </div>
 
@@ -60,69 +58,42 @@ require_once 'up.html';
                 ROSE</button></a>
         <section class="art">
             <article>
-                <iframe width="956" height="538" src="https://www.youtube.com/embed/POOQdrHfyPA" title="Jérémy Margalle"
-                    frameborder="0"
+                <iframe width="956" height="538" src="https://www.youtube.com/embed/rtK4t49uBnY"
+                    title="radiologue médecin" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 <div class="rdt">
-                    <h1>Jérémy Margallé - Membre d’un club Judo</h1>
+                    <h1>Alain Wolf - Radiologue & Alexandre Harbon - Médecin généraliste</h1>
                     <p>
-                        Jérémy MARGALLE, youtubeur connu, change de casquette à Octobre
-                        Rose. Cette fois-ci, il n'est pas derrière la caméra, ni en
-                        kimono, mais en rose représentant fièrement son club de judo et
-                        cet évènement. Aux côtés de ses camarades judo, Jérémy et ses
-                        camarades participent pour la première fois à cet événement
-                        caritatif. Le club, uni pour la cause, renforce ainsi le message
-                        d'unité dans la lutte contre le cancer du sein.
+                        Radiologue à la Ferté-sous-Jouarre, Alain WOLF nous explique en détail comment se déroule le
+                        dépistage du cancer du sein avec des divers supports. À ses côté, le médecin généraliste
+                        Alexandre HARBON nous dévoile les facteurs de risques du cancer, ainsi que les traitements
+                        conseillés en fonction du stade d’avancée de la maladie.
                     </p>
                 </div>
             </article>
         </section>
         <section class="art">
             <article>
-                <iframe width="1020" height="538" src="https://www.youtube.com/embed/uPBzd3zqC88"
-                    title="Anaïs Goncalves" frameborder="0"
+                <iframe width="956" height="538" src="https://www.youtube.com/embed/1N5vNBIBO88" title="Noro gynecolgue"
+                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 <div class="rdt">
                     <h1>
-                        Anais Goncalves - Professeur à l’Université Gustave Eiffel de
-                        Meaux
+                        Noro Rasoanaivo-Gaston - Gynécologue
                     </h1>
                     <p>
-                        Anaïs GONCALVES, une habituée fidèle de l'événement Octobre Rose à
-                        La Ferté-sous-Jouarre, incarne la persévérance et l'engagement.
-                        Année après année, elle revient, portant symboliquement le ruban
-                        rose avec fierté. Son dévouement envers la sensibilisation au
-                        cancer du sein et son soutien aux personnes touchées ne
-                        connaissent pas de limites. En tant que vétérante, Anaïs inspire
-                        ceux qui l'entourent, rappelant la constance nécessaire dans la
-                        lutte contre cette maladie.
+                        Enfin, découvrez les missions d’une gynécologue lors de l'événement avec le témoignage de Noro
+                        RASOANAIVO-GASTON. A l’aide de supports visuels, elle informe et sensibilise les participantes
+                        et participants qui souhaitent apprendre davantage sur les facteurs de risques, les traitements
+                        et le déroulement du dépistage du cancer du sein. Sur demande, elle peut dépister et
+                        éventuellement envoyer en radiologie les volontaires, directement sur place.
                     </p>
                 </div>
             </article>
         </section>
-        <section class="art">
-            <article>
-                <iframe width="956" height="538" src="https://www.youtube.com/embed/aBXnMoL6dKQ" title="Greg Ribeiro"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
 
-                <div class="rdt">
-                    <h1>Greg Ribeiro - Professeur de musique</h1>
-                    <p>
-                        Greg RIBEIRO, professeur de musique et nouveau participant à
-                        Octobre Rose, il n'est pas venu seul. Accompagné de son fils
-                        Jonas, il a décidé de s'impliquer activement dans cet événement
-                        caritatif. En tant que proche du milieu éducatif, Greg a partagé
-                        l'importance de cette cause autour de lui, mobilisant ses élèves
-                        pour se joindre à l'initiative. Sa présence va au-delà de la
-                        simple participation, reflétant un engagement fort et partagé.
-                    </p>
-                </div>
-            </article>
-        </section>
 
         <div id="menu">
             <article>

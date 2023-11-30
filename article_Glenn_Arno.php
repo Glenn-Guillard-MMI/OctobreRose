@@ -21,12 +21,10 @@ require_once 'up.html';
             <article>
                 <a id="rt" href="index.php?visteur=ok">← Retour</a>
                 <h1>ARTICLE</h1>
-                <img src="Ressources/img/lbd1.JPG" />
-                <h2>Octobre rose : tous en cœur</h2>
+                <img src="Ressources/img/PXL_20231008_085553118.jpg" />
+                <h2>La Fertoise : 20 500 euros de dons contre le cancer du sein</h2>
                 <p>
-                    Le groupe de musique LBD, composé de ses quatre jeunes artistes
-                    originaires de la Ferté Sous Jouarre, a eu l’occasion de participer à la 6ème
-                    édition d' Octobre Rose à la Ferte Sous Jouarre.
+
                 </p>
             </article>
         </section>
@@ -76,28 +74,26 @@ require_once 'up.html';
                 <h1 id="title_article">CONTINUER AVEC</h1>
 
                 <div class="flex_art">
-                    <a href="article1" class="article_a">
+                    <a href="article_Yanis.php" class="article_a">
+
                         <div class="art">
-                            <img src="Ressources/img/PXL_20231008_085553118.jpg" />
-                            <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                            <p class="justitexte">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Architecto soluta vitae beatae quaerat praesentium delectus
-                                cumque eos temporibus nisi quis.
-                            </p>
-                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                            <img src="Ressources/img/img_coiffeur.jpg">
+                            <h1 class="justititre">Au côté des commerçants participants à Octobre rose</h1>
+                            <p class="justitexte">Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès
+                                d’une
+                                commerçante participante. Celle-ci participe dans le but de soutenir la lutte contre le
+                                cancer du sein...</p>
+                            <p class="auteur">Yanis Wong</p>
                         </div>
                     </a>
-                    <a href="article2" class="article_a">
+                    <a href="article_Valentin.php" class="article_a">
                         <div class="art">
-                            <img src="Ressources/img/PXL_20231008_085553118.jpg" />
-                            <h1>Octobre rose : Danser pour l'espoir et la guérison</h1>
-                            <p class="justitexte">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Architecto soluta vitae beatae quaerat praesentium delectus
-                                cumque eos temporibus nisi quis.
-                            </p>
-                            <p class="auteur">dsjfhsdjhf dsfsd</p>
+                            <img src="Ressources/img/lbd1.JPG">
+                            <h1 class="justititre">Octobre rose : tous en cœur</h1>
+                            <p class="justitexte">Le groupe de musique LBD, composé de ses quatre jeunes artistes
+                                originaires de la Ferté Sous Jouarre, a eu l’occasion de participer à la 6ème
+                                édition d' Octobre Rose à la Ferte Sous Jouarre.</p>
+                            <p class="auteur">Valentin Lamour</p>
                         </div>
                     </a>
                 </div>
