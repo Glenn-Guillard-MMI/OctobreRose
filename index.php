@@ -173,7 +173,7 @@ require_once 'up.html';
 
                         <div class="art">
                             <img src="Ressources/img/img_coiffeur.jpg">
-                            <h1 class="justititre">Au côté des commerçants participants à Octobre rose</h1>
+                            <h1 class="justititre">Au côté des commerçants participant à Octobre rose.</h1>
                             <p class="justitexte">Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès
                                 d’une
                                 commerçante participante. Celle-ci participe dans le but de soutenir la lutte contre le

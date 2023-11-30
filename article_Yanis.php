@@ -22,7 +22,7 @@ require_once 'up.html';
                 <a id="rt" href="index.php?visteur=ok">← Retour</a>
                 <h1>ARTICLE</h1>
                 <img src="Ressources/img/img_coiffeur.jpg" />
-                <h2>Au côté des commerçants participants à Octobre rose</h2>
+                <h2>Au côté des commerçants participant à Octobre rose</h2>
                 <p>
                     Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès d’une
                     commerçante participante. Celle-ci participe dans le but de soutenir la lutte contre le
@@ -35,36 +35,27 @@ require_once 'up.html';
                 <p>Yanis Wong</p>
                 <p>Le 29 novembre 2023</p>
                 <p>
-                    Il fait beau, en cette matinée d’octobre le soleil éclaire les différents commerces. 26 place
-                    de l’hôtel de ville à la Ferté sous Jouarre, les commerces s’animent, la douce odeur du
-                    pain enivre les passants.
+                    Il fait beau, en cette matinée d’octobre le soleil éclaire les différents commerces qui
+                    commencent à s’animer. 26 place de l’hôtel de ville à la Ferté sous Jouarre, la douce
+                    odeur du pain enivre les passants. A côté de cette boulangerie se situe un petit salon de
+                    coiffure, nous passons la porte armés de notre matériel et le son de la cloche retentit.
 
                 </p>
                 <br />
-                <p>Au côté de cette boulangerie se situe un petit salon de coiffure, nous passons la porte et
-                    le son de la cloche retentit.</p>
+                <p>Tout de suite notre attention est attirée par les sons propres à cet endroit. L’eau coule, des
+                    bruits sourds d’une tondeuse et des discussions se font entendre. Dans ce salon dont
+                    l’ambiance est chaleureuse et accueillante, une coiffeuse nommée Isabelle nous
+                    accueille à bras ouvert.
+                </p>
                 <br>
-                <p>Armés de notre matériel nous entrons dans ce salon.
+                <p>Une posture droite et le sourire aux lèvres, son attitude et son sourire retranscrit une
+                    personne accueillante et généreuse. Elle est vêtue d’un t-shirt rose avec un motif de
+                    mains au niveau de la poitrine sur lequel est écrit La Fertoise. Ses cheveux courts et
+                    argentés, parmi lesquels des mèches roses, se font remarquer.
+
 
                 </p>
                 <br>
-                <p>
-                    Tout de suite notre attention est attirée par les sons propres à cet endroit. L’eau coule, des
-                    bruits sourds d’une tondeuse et des discussions se font entendre.
-                </p><br>
-                <p>
-                    Dans ce salon dont l’ambiance est chaleureuse et accueillante, une dame nous a
-                    accueilli.
-                </p><br>
-                <p>
-                    Une posture droite, le sourire aux lèvres et les yeux crispés, son attitude et son sourire
-                    retranscrit une personne accueillante et généreuse.
-                </p><br>
-                <p>
-                    Elle est vêtue d’un t-shirt rose avec un motif de mains au niveau de la poitrine sur lequel
-                    est écrit La Fertoise. Ses cheveux courts et argentés, parmi lesquels des mèches roses, se
-                    font remarquer.
-                </p><br>
                 <p>
                     Cette coiffeuse aussi gentille et généreuse qu’on peut le penser se révèle être une
                     participante à l'événement Octobre Rose. Sa manière de participer est originale. Elle
@@ -73,40 +64,27 @@ require_once 'up.html';
                     à Octobre Rose.
                 </p><br>
                 <p>
-                    Autour de nous, des stickers, des pins et des broches se font remarquer. Il se trouve que la
-                    coiffeuse Isabelle a eu l’initiative de poser ces différents stickers pour sensibiliser ses
-                    clients à l'événement Octobre Rose.
-
-                </p><br>
-                <p>
-                    Elle est vêtue d’un t-shirt rose avec un motif de mains au niveau de la poitrine sur lequel
-                    est écrit La Fertoise. Ses cheveux courts et argentés, parmi lesquels des mèches roses, se
-                    font remarquer.
-                </p><br>
-                <p>
-                    «<i>C’est très important de se faire la mammographie, en tant qu’homme et en tant que
-                        femme</i>» une citation de Isabelle la coiffeuse elle-même.
-                </p><br>
-                <p>
-                    Elle est vêtue d’un t-shirt rose avec un motif de mains au niveau de la poitrine sur lequel
-                    est écrit La Fertoise. Ses cheveux courts et argentés, parmi lesquels des mèches roses, se
-                    font remarquer.
-                </p><br>
-                <p>
-                    Cette citation s’explique par les raisons de sa participation à l'événement en lui-même.
+                    Autour de nous, des stickers, des pins et des broches se font remarquer. Isabelle a eu
+                    l’initiative de poser ces différents objets pour sensibiliser ses clients à l'événement Octobre
+                    Rose.
                 </p><br>
                 <p>
                     Elle nous raconte que depuis ses débuts en tant que coiffeuse, elle participait déjà à
                     Octobre Rose. C’est un événement qui lui tient à cœur, mais elle ne se sentait pas
-                    spécialement concernée par la cause jusqu’à ses 50 ans.
+                    spécialement concernée par la cause, jusqu’à ses 50 ans.
 
                 </p><br>
                 <p>
-                    A ses 50 ans elle a dû faire une mammographie, après cet acte, elle s’est sentie
-                    beaucoup plus concernée et beaucoup plus touchée par la cause. Ça a été comme un
-                    déclic pour elle et à présent elle soutient la cause cœur et âme et tient à sensibiliser le
-                    plus de monde pour faire comprendre que cette lutte est importante et qu’elle touche
-                    tout le monde.
+                    «<i>C’est très important de se faire la mammographie, en tant qu’homme et en tant que
+                        femme</i>» une citation de Isabelle elle-même.
+                </p><br>
+                <p>
+                    Cette citation s’explique par les raisons de sa participation à l'événement en lui-même.
+                    A ses 50 ans elle a dû faire une mammographie, après cet acte, elle nous raconte qu’elle
+                    s’est sentie beaucoup plus concernée et beaucoup plus touchée par la cause. Ça a été
+                    comme un déclic pour elle et à présent elle soutient la cause cœur et âme. Elle tient à
+                    sensibiliser le plus de monde pour faire comprendre que cette lutte est importante et
+                    qu’elle touche tout le monde.
                 </p>
             </article>
         </section>

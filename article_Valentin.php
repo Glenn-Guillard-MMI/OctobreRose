@@ -39,7 +39,7 @@ require_once 'up.html';
                         se prépare</u> à offrir une performance inoubliable. Une complicité évidente règne
                     entre les membres du groupe, créant une atmosphère détendue mais pleine
                     d'énergie. Le groupe LBD, composé d'Alex et Toma aux guitares, Loan à la batterie,
-                    et Lucaina au chant, a pris part à un événement particulier avec une motivation
+                    et Lucaina au chant, ont pris part à un événement particulier avec une motivation
                     profonde. Lucaina, le chanteur du groupe, a exprimé son engagement envers
                     Octobre Rose en rendant hommage à sa grand-mère, qui lutte contre le cancer
                     du sein. Il a partagé son intention sincère en déclarant : "<i>Je suis ici pour montrer
@@ -80,7 +80,7 @@ require_once 'up.html';
 
                         <div class="art">
                             <img src="Ressources/img/img_coiffeur.jpg">
-                            <h1 class="justititre">Au côté des commerçants participants à Octobre rose</h1>
+                            <h1 class="justititre">Au côté des commerçants participant à Octobre rose.</h1>
                             <p class="justitexte">Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès
                                 d’une
                                 commerçante participante. Celle-ci participe dans le but de soutenir la lutte contre le
