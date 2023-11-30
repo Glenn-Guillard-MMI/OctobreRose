@@ -84,8 +84,8 @@ require_once 'up.html';
                     font remarquer.
                 </p><br>
                 <p>
-                    « <i>C’est très important de se faire la mammographie, en tant qu’homme et en tant que
-                        femme </i>» une citation de Isabelle la coiffeuse elle-même.
+                    «<i>C’est très important de se faire la mammographie, en tant qu’homme et en tant que
+                        femme</i>» une citation de Isabelle la coiffeuse elle-même.
                 </p><br>
                 <p>
                     Elle est vêtue d’un t-shirt rose avec un motif de mains au niveau de la poitrine sur lequel

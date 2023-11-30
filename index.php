@@ -20,8 +20,8 @@ require_once 'up.html';
 
     <div id="vid" onclick="novid()">
         <div id="hello">
-            <iframe width="956" height="538" src="https://www.youtube.com/embed/t7fGvDE9_JA"
-                title="DJI 20231008 111259 558 video" frameborder="0"
+            <iframe width="956" height="538" src="https://www.youtube.com/embed/eYSs4Wgtl9M" title="compil message"
+                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
@@ -142,9 +142,8 @@ require_once 'up.html';
                         </h2>
                         <p id="profession">Coiffeuse</p>
                         <i>
-                            <p id="phrase_coiffeuse">“Si vous constatez un changement, même minime, n'hésitez pas à
-                                consulter un professionnel de
-                                santé.”</p>
+                            <p id="phrase_coiffeuse">“C’est très important de se faire la mammographie, en tant qu’homme
+                                et en tant que femme.”</p>
                         </i>
                         <h2 id="audio_title">Ecouter le témoignage de Isabelle</h2>
                         <audio controls src="Ressources/audio/ZOOM0001_TrLR_1.mp3"></audio>
