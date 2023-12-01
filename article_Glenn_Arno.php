@@ -30,42 +30,70 @@ require_once 'up.html';
         </section>
         <section>
             <article id="texte_art">
-                <p>Valentin Lamour</p>
+                <p>Glenn Guillard & Arno Le moil</p>
                 <p>Le 21 novembre 2023</p>
                 <p>
-                    Sur une scène animée par une ambiance conviviale et chaleureuse, <u>le groupe LBD
-                        se prépare</u> à offrir une performance inoubliable. Une complicité évidente règne
-                    entre les membres du groupe, créant une atmosphère détendue mais pleine
-                    d'énergie. Le groupe LBD, composé d'Alex et Toma aux guitares, Loan à la batterie,
-                    et Lucaina au chant, a pris part à un événement particulier avec une motivation
-                    profonde. Lucaina, le chanteur du groupe, a exprimé son engagement envers
-                    Octobre Rose en rendant hommage à sa grand-mère, qui lutte contre le cancer
-                    du sein. Il a partagé son intention sincère en déclarant : "<i>Je suis ici pour montrer
-                        mon soutien à Octobre Rose et soutenir ma grand-mère dans ce combat.</i>"
+                    Comme chaque année, l’objectif de la commune est de battre son ancien record, afin de soutenir la
+                    recherche contre le cancer du sein. Professionnels de santé, commerçants et autres participants se
+                    réunissent pour soutenir cette cause et contribuer financièrement à cette recherche.
+                    Octobre rose est né dans les années 80 au Royaume-Uni, puis s'est étendu dans plusieurs autres pays.
+                    Il est arrivé en France en 1985 par le biais de l'association «<i>Le Cancer du sein,
+                        parlons-en</i>».
+
                 </p>
                 <br />
-                <p>Fort de plusieurs années d'expérience musicale en Seine-et-Marne, le groupe LBD
-                    est bien connu pour sa polyvalence artistique. Les guitaristes, Alex et Toma, le
-                    batteur Loan, et le chanteur Lucaina créent leur propre musique, explorant un
-                    large éventail de styles, du rock au rap, en passant par la pop et le reggae.</p>
+                <p>Dès le commencement de la Fertoise, qui symbolise toutes les femmes de la Ferté-sous-Jouarre,
+                    l'ambiance énergique se fait sentir. Danseurs et danseuses se mettent en scène avec les nombreux
+                    participants. En effet, on constate une importante augmentation en l'espace d’un an, passant de 1
+                    500 à 2 100 participants.
+                </p>
                 <br>
-                <p>Leur engagement envers des causes caritatives ne se limite pas à Octobre Rose.
-                    LBD a déjà participé à d'autres événements caritatifs tels que le Téléthon et la
-                    Fête de la musique. Leur musique vibrante et variée résonne auprès d'un public
-                    diversifié.
+                <p>Parmi ces participants, il est possible de retrouver des médecins et autres professionnels de santé.
+                    Leur objectif ? Sensibiliser, conseiller ou encore diagnostiquer les participants volontaires ou
+                    craignant d’être atteint du cancer.
+
 
                 </p>
                 <br>
                 <p>
-                    Lors de leur performance devant une foule enthousiaste de plus de 2000
-                    personnes, LBD a conquis les spectateurs par leur énergie contagieuse et leur
-                    talent musical. Choisis avec soin, les morceaux interprétés par le groupe
-                    abordaient des thèmes de force, d'espoir et de résilience. LBD espère que leur
-                    musique saura apporter un réconfort bienvenu à ceux qui sont touchés par le
-                    cancer du sein. Avec leur propre style musical distinctif, le groupe souhaite créer
-                    une expérience mémorable pour leur public tout en contribuant à des causes qui
-                    leur tiennent à cœur, <b>unissant le pouvoir de la musique à celui du soutien
-                        communautaire.</b>
+                    L'objectif des participants est le même, mais les motivations sont différentes. Certains viennent
+                    soutenir la cause car un membre de leur famille ou eux-même ont été atteint du cancer du sein :
+                    «<i>Il
+                        y a des gens de ma famille qui ont été touchés par le cancer du sein</i>» témoigne Léa,
+                    aide-soignante.
+                    D’autres viennent simplement participer dans le but de faire une bonne action et aider les personnes
+                    atteint du cancer .
+                </p>
+                <br>
+                <p>Pour soutenir la cause, quelques clubs sont présents en groupe, pour représenter la lutte contre le
+                    cancer. On peut y retrouver le club de judo <i>L’ange gardien</i> et le club de musique <i>GDE</i>,
+                    venus pour «<i>faire un effet de masse</i>». Plusieurs commerçants ont aussi fait le déplacement
+                    afin de vendre des
+                    produits, dans le but de verser des dons avec l’argent récolté. Un autre stand était présent pour
+                    récupérer des soutien-gorges. Enfin, des bénévoles étaient également présents pour récolter des
+                    dons.</p>
+                <br>
+                <p>Lors de cet événement, des enfants victimes de handicaps, ont aussi pu participer. Ceux-ci ont eu la
+                    chance de monter sur scène pour faire une chorégraphie en langue des signes de la musique « La
+                    grenade » de Clara Luciani.</p>
+                <br>
+                <p>Vers 11h00, les participants écoutent le discours du maire de La-Ferté-sous-Jouarre, monsieur Ugo
+                    Pezzetta. “<i>La semaine dernière Coulommiers a battu un record, aujourd’hui La-Ferté-sous-Jouarre
+                        bat
+                        à son tour un record, nous sommes un territoire de record [...] 2 100 personnes présentes
+                        aujourd’hui, nous avons le plaisir de remettre à la ligue contre le cancer un chèque de 20 500
+                        euros</i>” déclare Ugo Pezzetta. Ce chèque bas l’ancien record de La-Ferté-sous-Jouarre qui,
+                    l’an
+                    dernier, avait réussi à récolter 17 000 euros.
+                </p>
+                <br>
+                <p>Après ce discours, l’heure du départ sonne. Les participants commencent leurs courses de 4,5 ou 6,5
+                    Km, suivis des randonneurs qui ont la possibilité d’être accompagnés de leurs chiens. Après avoir
+                    parcouru de nombreux kilomètres, les participants ont pu se restaurer à la buvette directement
+                    installée au sein de l’événement.</p>
+                <br>
+                <p>Ils auront également l’occasion de se détendre en musique grâce au concert du groupe LDB, qui
+                    clôturé cet événement annuel.
                 </p>
             </article>
         </section>
@@ -76,7 +104,7 @@ require_once 'up.html';
                 <div class="flex_art">
                     <a href="article_Yanis.php" class="article_a">
 
-                    <div class="art">
+                        <div class="art">
                             <img src="Ressources/img/img_coiffeur.jpg">
                             <h1 class="justititre">Au côté des commerçants participant à Octobre rose.</h1>
                             <p class="justitexte">Nous plongeons au cœur d’Octobre Rose ce vendredi 13 octobre, auprès
