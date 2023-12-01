@@ -148,6 +148,10 @@ header img {
   margin-right: auto;
 }
 
+a {
+  color: #142c5d;
+}
+
 #texte_art {
   width: 50%;
   margin-left: auto;

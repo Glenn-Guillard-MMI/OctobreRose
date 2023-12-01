@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Article</title>
-    <link rel="stylesheet" href="artcile.css" />
+    <link rel="stylesheet" href="artcile.css?ij" />
     <link rel="icon" href="Ressources/img/logo.svg" />
 </head>
 
@@ -35,21 +35,23 @@ require_once 'up.html';
                 <p>Valentin Lamour</p>
                 <p>Le 21 novembre 2023</p>
                 <p>
-                    Sur une scène animée par une ambiance conviviale et chaleureuse, <u>le groupe LBD
-                        se prépare</u> à offrir une performance inoubliable. Une complicité évidente règne
+                    Sur une scène animée par une ambiance conviviale et chaleureuse, <a
+                        href="index.php?visteur=ok#lbd"><u>le groupe LBD
+                            se prépare</u></a> à offrir une performance inoubliable. Une complicité évidente règne
                     entre les membres du groupe, créant une atmosphère détendue mais pleine
                     d'énergie. Le groupe LBD, composé d'Alex et Toma aux guitares, Loan à la batterie,
-                    et Lucaina au chant, ont pris part à un événement particulier avec une motivation
-                    profonde. Lucaina, le chanteur du groupe, a exprimé son engagement envers
-                    Octobre Rose en rendant hommage à sa grand-mère, qui lutte contre le cancer
-                    du sein. Il a partagé son intention sincère en déclarant : "<i>Je suis ici pour montrer
-                        mon soutien à Octobre Rose et soutenir ma grand-mère dans ce combat.</i>"
+                    et Lucaina au chant, dégage une motivation profonde. Lucaina, le chanteur du
+                    groupe, a exprimé son engagement envers Octobre Rose en rendant hommage à
+                    sa grand-mère, qui lutte contre le cancer du sein. Il a partagé son intention
+                    sincère en déclarant : "<i>Je suis ici pour montrer mon soutien à Octobre Rose et
+                        soutenir ma grand-mère dans ce combat.</i>"
                 </p>
                 <br />
                 <p>Fort de plusieurs années d'expérience musicale en Seine-et-Marne, le groupe LBD
-                    est bien connu pour sa polyvalence artistique. Les guitaristes, Alex et Toma, le
-                    batteur Loan, et le chanteur Lucaina créent leur propre musique, explorant un
-                    large éventail de styles, du rock au rap, en passant par la pop et le reggae.</p>
+                    est bien connu pour sa polyvalence artistique, ils créent leur propre musique,
+                    explorant un large éventail de styles, du rock au rap, en passant par la pop et le
+                    reggae.
+                </p>
                 <br>
                 <p>Leur engagement envers des causes caritatives ne se limite pas à Octobre Rose.
                     LBD a déjà participé à d'autres événements caritatifs tels que le Téléthon et la
@@ -60,7 +62,7 @@ require_once 'up.html';
                 <br>
                 <p>
                     Lors de leur performance devant une foule enthousiaste de plus de 2000
-                    personnes, LBD a conquis les spectateurs par leur énergie contagieuse et leur
+                    personnes, LBD a conquis les spectateurs par son énergie contagieuse et son
                     talent musical. Choisis avec soin, les morceaux interprétés par le groupe
                     abordaient des thèmes de force, d'espoir et de résilience. LBD espère que leur
                     musique saura apporter un réconfort bienvenu à ceux qui sont touchés par le

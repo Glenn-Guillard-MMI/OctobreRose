@@ -70,7 +70,7 @@ require_once 'up.html';
                     <img src="Ressources/img/PXL_20231008_091640380.jpg">
                     <div id="barre_jaune"></div>
                     <h1>PARTICIPANTS À LA COURSE</h1>
-                    <p>La 6e édition d'Octobre Rose à La Ferté-sous-Jouarre a été un véritable succès. Plus de 2100 ...
+                    <p>La 6e édition d'Octobre Rose à La Ferté-sous-Jouarre a été un véritable succès...
                     </p>
                     <a href="Participant_au_triathlon.php"><button> Consulter</button></a>
                 </article>
@@ -185,6 +185,7 @@ require_once 'up.html';
                 <div class="flex_art">
                     <a href="article_Valentin.php" class="article_a">
                         <div class="art">
+
                             <img src="Ressources/img/lbd1.JPG">
                             <h1 class="justititre">Octobre rose : tous en cœur</h1>
                             <p class="justitexte">Le groupe de musique LBD, composé de ses quatre jeunes artistes
@@ -212,6 +213,7 @@ require_once 'up.html';
                     </div>
                     <hr>
                     <div id="son_right">
+                        <div id="lbd"></div>
                         <h2>Groupe de jeune musicien</h2>
                         <p>Au cœur de l'événement Octobre Rose, le groupe de musique LBD a apporté une note particulière
                             d'engagement et d'émotion. Le groupe s'est tout d'abord échauffé, créant une ambiance
@@ -220,6 +222,8 @@ require_once 'up.html';
                             dans une symphonie préliminaire, évoquant une énergie contagieuse qui se propageait parmi
                             les membres du groupe.</p>
                         <h2>Préparations Enchantées</h2>
+
+
                         <audio controls src="Ressources/audio/Musique.mp3"></audio>
                         <a href="https://www.instagram.com/ldb.officiels/?fbclid=IwAR0ktmZTI0uWm8Wqc6K3KbAbh9wxnwzZk_xMrDngobp8Pgs2pCp_AUMhNXQ"
                             target="_blank">

@@ -42,7 +42,7 @@ require_once 'up.html';
 
                 </p>
                 <br />
-                <p>Dès le commencement de la Fertoise, qui symbolise toutes les femmes de la Ferté-sous-Jouarre,
+                <p>Dès le commencement de la Fertoise (qui symbolise toutes les femmes de la Ferté-sous-Jouarre),
                     l'ambiance énergique se fait sentir. Danseurs et danseuses se mettent en scène avec les nombreux
                     participants. En effet, on constate une importante augmentation en l'espace d’un an, passant de 1
                     500 à 2 100 participants.
