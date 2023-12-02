@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Article</title>
-    <link rel="stylesheet" href="artcile.css" />
+    <link rel="stylesheet" href="artcile.css?gvhb" />
     <link rel="icon" href="Ressources/img/logo.svg" />
 </head>
 

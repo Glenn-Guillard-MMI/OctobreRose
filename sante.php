@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="triathlon.css?iohhddsdsqdskksssdqqdio" />
+    <link rel="stylesheet" href="triathlon.css?iohhdydsdsqdskksssdqqdio" />
     <link rel="icon" href="Ressources/img/logo.svg" />
 
     <title>PROFESSIONNEL DE SANTÉ</title>

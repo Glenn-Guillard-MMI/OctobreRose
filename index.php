@@ -5,8 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Octobre Rose : Au cœur de la lutte</title>
-    <link rel="stylesheet" href="styles.css?dsddjjjjdsdqdsqldddsdqsdqsssdqdsqfsdfzrzerzesddqksfdfffhhhkdkdsqs"
-        type="text/css" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="icon" href="Ressources/img/logo.svg">
 </head>
 
@@ -33,13 +32,17 @@ require_once 'up.html';
             <div id="ref">
                 <p>
                     Projet documentaire de&nbsp;
-                    <a href="https://www.linkedin.com/in/valentin-lamour-732488252/" target="_blank"><b>Valentin
+                    <a href="https://www.linkedin.com/in/valentin-lamour-732488252/" target="_blank"
+                        title="Designer du site et caméraman"><b>Valentin
                             Lamour</b></a>,
-                    <a href="https://www.linkedin.com/in/glenn-guillard-08204724a/" target="_blank"><b> Glenn
+                    <a href="https://www.linkedin.com/in/glenn-guillard-08204724a/" target="_blank"
+                        title="Developpeur du site et photographe"><b> Glenn
                             Guillard</b></a>,
-                    <a href="https://www.linkedin.com/in/yanis-wong-a2a080278/" target="_blank"><b> Yanis Wong
+                    <a href="https://www.linkedin.com/in/yanis-wong-a2a080278/" target="_blank"
+                        title="Monteur vidéo"><b> Yanis Wong
                         </b></a> et
-                    <a href="https://www.linkedin.com/in/arno-le-moil-29b4b1256/" target="_blank"><b> Arno Le
+                    <a href="https://www.linkedin.com/in/arno-le-moil-29b4b1256/" target="_blank"
+                        title="Monteur vidéo"><b> Arno Le
                             Moil</b></a>
 
                 </p>

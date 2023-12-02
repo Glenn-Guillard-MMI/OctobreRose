@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="triathlon.css?iohhdssdshhqsdqqdio" />
+    <link rel="stylesheet" href="triathlon.css" />
     <link rel="icon" href="Ressources/img/logo.svg" />
 
     <title>PARTICIPANTS À LA COURSE</title>
@@ -115,10 +115,11 @@ require_once 'up.html';
                         d'unité dans la lutte contre le cancer du sein.
                     </p>
                 </div>
-                <div id="share">
+                <a href="https://www.youtube.com/channel/UCR46llxsen_Opq2KQSTz0hQ" target="_blank" <div id="share">
                     <p>Retrouvez les sur </p>
-                    <img src="Ressources/img/bi_instagram.svg" id="rese">
-                </div>
+                    <img src="Ressources/img/youtube.png" id="rese">
+                    </div>
+                </a>
             </article>
         </section>
         <section class="art">
@@ -173,8 +174,7 @@ require_once 'up.html';
                 <div id="barre_jaune"></div>
                 <h1>PROFESSIONNEL DE SANTÉ</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                    ipsa corporis debitis ab aliquid est eos tenetur earum ad quia!
+                    Au cours de l'événement, des professionnels de santé étaient installés dans un stand ...
                 </p>
                 <a href="sante.php"><button> Consulter</button></a>
             </article>

@@ -129,7 +129,7 @@ header img {
 }
 
 #intro p {
-  width: 65%;
+  width: 50%;
   margin-top: 25px;
   color: white;
   margin-left: auto;
@@ -174,11 +174,17 @@ a {
   #texte_art {
     width: 75%;
   }
+  #intro p {
+    width: 75% !important;
+  }
 }
 @media screen and (max-width: 575px) {
   #texte_art {
     font-size: 0.8rem;
     width: 95%;
+  }
+  #intro p {
+    width: 95% !important;
   }
 }
 
@@ -217,7 +223,9 @@ body .flex_art:last-child {
   .flex_art {
     display: block;
   }
-
+  .art h1 {
+    height: 100% !important;
+  }
   .article_a {
     margin-left: auto;
     margin-right: auto;
